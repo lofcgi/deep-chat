@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ChatInput } from "../components/ChatInput";
 import { Sidebar } from "../components/Sidebar";
-import { createChatSession } from "@/lib/api";
+import { createChatSession } from "../lib/api";
 
 export function ChatClient() {
   const router = useRouter();

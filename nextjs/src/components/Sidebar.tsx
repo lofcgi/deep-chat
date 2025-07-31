@@ -10,7 +10,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
 } from "@heroicons/react/24/outline";
-import { getChatSessions, ChatSession, deleteChatSession } from "@/lib/api";
+import { getChatSessions, ChatSession, deleteChatSession } from "../lib/api";
 
 interface SidebarProps {
   isOpen: boolean;
