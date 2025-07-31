@@ -1,7 +1,10 @@
+import { Suspense } from "react";
+import { ChatClient } from "./ChatClient";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Suspense fallback={<div>Loading...</div>}>
+      <ChatClient />
+    </Suspense>
   );
 }
