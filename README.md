@@ -1,7 +1,3 @@
-# DeepAuto Chat Application
-
-DeepAuto.ai Scaleserve Chat Completion API를 활용한 실시간 챗봇 웹 애플리케이션입니다.
-
 ## 🚀 실행 방법
 
 ### 1. 환경 변수 설정
@@ -214,15 +210,3 @@ deepauto/
    # 컨테이너 간 통신 확인
    docker-compose exec client ping server
    ```
-
-## 📄 라이센스
-
-MIT License
-
-## 🤝 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
